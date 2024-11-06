@@ -12,6 +12,7 @@
 * {
     scrollbar-width: thin;
     scrollbar-color: var(--scroll-color) var(--scroll-bg);
+
 }
 .awesomplete .input-with-feedback {
     border: 1px solid var(--border-color);
@@ -53,27 +54,31 @@
 }
 
 [data-theme="light"] {
-    --bg-color: rgb(198, 235, 197);
+    --bg-color: rgb(9, 16, 87);
     --text-bold: 600;
     --control-bg : #ffffff;
-    --control-bg-on-gray: #c5c9d0;
-    --disabled-control-bg: #f2f5fa;
-    --heading-color: rgb(255, 255, 255);
+    --control-bg-on-gray: white;
+    --disabled-control-bg: #000000;
+    --heading-color: white;
     --border-color:#e3e8f1;
     --avatar-frame-bg: #006aff;
     --margin-lg: 15px;
-    --sidebar-select-color: #fbfdff;
+    --sidebar-select-color: #4a90d6;
     --awesomplete-hover-bg: #d4dcea;
+    --awesomplete-color:white;
     --scroll-bg: #eef1f5;
     --scroll-color: #d9dfe6;
+    --awesomeplete-bg: white;
+
 }
 
 .layout-main-section {
-    background-color: rgb(161, 195, 152) !important;
+    background-color: rgb(63, 122, 200) !important;
+    border-radius: 6px;
 }
 
 .widget {
-    background-color: rgb(254, 253, 237);
+    background-color: rgb(219, 211, 211);
     padding: 5px;
     border-radius: 6px;
     
@@ -88,11 +93,11 @@
 }
 
 .navbar {
-    background-color: rgb(244, 128, 128);
+    background-color: rgb(236, 131, 5);
 }
 
-.ellipsis{
-    color: rgb(59, 84, 53);
+.ellipsis_tittle-text{
+    color: white;
 }
 
 .app-logo {
@@ -101,5 +106,69 @@
 }
 
 .es-icon {
+    color: white;
+}
+
+#login {
+    background-color: #a80e0e;
+}
+
+.desk-sidebar-item {
+    color: white;
+}
+
+.sidebar-item-label {
+    color: white;
+}
+
+.page-form {
+    background-color:rgb(63, 122, 200) ;
+}
+
+.btn-reset {
+    color: white;
+}
+
+.ellipsis_tittle-id{
+    color: white;
+}
+
+.list-row-col_ellipsis_hidden-xs {
+    color: white;
+}
+
+#helmet.ellipsis {
+    color: white;
+}
+
+.list-row-col a {
+    color: white;
+}
+
+.sidebar-section a{
+    color: white;
+}
+
+.layout-side-section .sidebar-label {
+    color: white;
+}
+
+.checkbox .label-area {
+    color: white;
+}
+
+.ellipsis:hover {
+    color: black;
+}
+
+.search-bar .awesomplete ul {
+    color: white;
+}
+
+.listbox {
+    color: white;
+}
+
+.listbox.awesomeplete_list_1 {
     color: white;
 }
