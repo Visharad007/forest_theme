@@ -8,9 +8,9 @@ with open('requirements.txt') as f:
 from forest_theme import __version__ as version
 
 setup(
-	name='forest_theme',
+	name='theme_pravartak',
 	version=version,
-	description='Forest theme for erpnext',
+	description='theme for erpnext',
 	author='Visharad',
 	author_email='vish@gmail.com',
 	packages=find_packages(),
